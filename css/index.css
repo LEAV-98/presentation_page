@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color:#E7EBF5;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    z-index: 10;
+    position: fixed;
+    color: white;
+}
+.logo h1{
+    position: absolute;
+    top:15px;
+    left:0;
+    padding-left: 100px;
+}
+.menu{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    right: 0;
+    padding-right: 100px;
+}
+.menu ul{
+    list-style: none;
+    padding:0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    line-height: 80px;
+    text-align: right;
+    text-decoration: none;
+    height: 100%;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+}
+.menu ul li a:hover,
+.tarjeta1 a:hover{
+    background-color: white;
+    color: black;
+}
+.section{
+    z-index: 5;
+    position: relative;
+    top:80px;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);    text-align: center;
+}
+.titulo{
+    padding-top: 20px;
+    font-size: 40px;
+}
+.section__tarjetas{
+    width: 100%;
+    padding-top: 10px;
+    height: 600px;
+    
+}
+.tarjeta1{
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+    height: 100%;
+}
+.tarjeta1 h5{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.tarjeta1 p{
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.tarjeta1 a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding:15px;
+    border-radius: 80px;
+    float: left;
+}
+.tarjeta2{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.tarjeta2 img{
+    width: 70%;
+    height: 30em;
+}
+.ola{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
